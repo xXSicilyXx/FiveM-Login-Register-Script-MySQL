@@ -1,1 +1,1 @@
-# FiveM-Logi-Register-Script-MySQL
+# FiveM-Login-Register-Script-MySQL
