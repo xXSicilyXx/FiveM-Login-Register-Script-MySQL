@@ -1,0 +1,101 @@
+body {
+font-family: sans-serif;
+overflow: hidden;
+/*background-image: url('./images/bg.jpg');
+background-size: cover;*/
+display: none;
+}
+
+a:hover, button:hover {
+transition: 0.1s;
+cursor: pointer;
+}
+
+.dialog {
+    width: 25%;
+	height: 64%;
+	margin: auto;
+    padding: 4% 2% 0% 2%; /* top, right, bottom, left */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {margin: auto;}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: auto;
+}
+/*
+button {
+display: block;
+margin-top: 10px;
+padding: 20px;
+background-color: #286090; #COLORE DI SFONDO BLU#
+border: 0;
+color: #fff;
+width: 100%;
+outline: none;
+}
+
+button:hover, #leave:hover {
+background-color: grey;
+transition: 0.1s;
+cursor: pointer;
+}
+
+#leave {background-color: #CD0000;}
+
+*/
+
+.buttonlogin {
+display: block;
+margin-top: 10px;
+padding: 20px;
+background-color: green; 
+border: 0;
+color: #fff;
+width: 100%;
+outline: none;
+}
+
+.buttonlogin:hover {
+background-color: darkgreen;
+transition: 0.1s;
+cursor: pointer;
+}
+
+.buttonregister {
+display: block;
+margin-top: 10px;
+padding: 20px;
+background-color: #ff9900;
+border: 0;
+color: #fff;
+width: 100%;
+outline: none;
+}
+
+.buttonregister:hover {
+background-color: #ff8000;
+transition: 0.1s;
+cursor: pointer;
+}
+
+.buttonexit {
+display: block;
+margin-top: 0px;
+padding: 20px;
+background-color: red;
+border: 0;
+color: #fff;
+width: 100%;
+outline: none;
+}
+
+.buttonexit:hover {
+background-color: darkred;
+transition: 0.1s;
+cursor: pointer;
+}
+
